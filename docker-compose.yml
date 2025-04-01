@@ -1,18 +1,20 @@
-version: '2'
-
 services:
+
+    redis:
+        image: redis:alpine
+        container_name: snappass-redis
+        restart: unless-stopped
 
     snappass:
         build: .
         image: pinterest/snappass
+        container_name: snappass
         ports:
-            - "5000:5000"
+            - "5200:5000"
+        restart: unless-stopped
         stop_signal: SIGINT
         environment:
             - REDIS_HOST=redis
             - NO_SSL=True
         depends_on:
           - redis
-
-    redis:
-        image: "redis:latest"
