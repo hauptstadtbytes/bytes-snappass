@@ -28,7 +28,7 @@ msgstr "Snappass - Passwörter teilen"
 
 #: snappass/templates/base.html:16
 msgid "Share Secret"
-msgstr "Passwort teilen"
+msgstr "One Time Secret - Hauptstadtbytes GmbH"
 
 #: snappass/templates/confirm.html:6
 msgid "Share Secret Link"
@@ -39,7 +39,7 @@ msgid ""
 "The secret has been temporarily saved. Send the following URL to your "
 "intended recipient."
 msgstr ""
-"Das Passwort wurde vorübergehend gespeichert. Senden Sie die folgende "
+"Das Secret wurde vorübergehend gespeichert. Senden Sie die folgende "
 "URL an Ihren gewünschten Empfänger."
 
 #: snappass/templates/confirm.html:14 snappass/templates/password.html:14
@@ -48,7 +48,7 @@ msgstr "In Zwischenablage kopieren"
 
 #: snappass/templates/expired.html:6
 msgid "Secret not found"
-msgstr "Passwort nicht gefunden"
+msgstr "Secret nicht gefunden"
 
 #: snappass/templates/expired.html:7
 msgid ""
@@ -71,32 +71,32 @@ msgstr ""
 
 #: snappass/templates/password.html:6 snappass/templates/preview.html:7
 msgid "Secret"
-msgstr "Passwort"
+msgstr "Secret"
 
 #: snappass/templates/password.html:7
 msgid "Save the following secret to a secure location."
-msgstr "Speichern Sie das folgende Passwort an einem sicheren Ort."
+msgstr "Speichern Sie das folgende Secret an einem sicheren Ort."
 
 #: snappass/templates/password.html:21
 msgid ""
 "The secret has now been permanently deleted from the system, and the URL "
 "will no longer work. Refresh this page to verify."
 msgstr ""
-"Das Passwort wurde nun endgültig aus dem System gelöscht, und die URL "
+"Das Secret wurde nun endgültig aus dem System gelöscht, und die URL "
 "funktioniert nicht mehr. Aktualisieren Sie diese Seite, um dies zu "
 "überprüfen."
 
 #: snappass/templates/preview.html:9
 msgid "You can only reveal the secret once!"
-msgstr "Sie können auf das Passwort nur einmal zugreifen!"
+msgstr "Sie können auf das Secret nur einmal zugreifen!"
 
 #: snappass/templates/preview.html:12
 msgid "Reveal secret"
-msgstr "Passwort anzeigen"
+msgstr "Secret anzeigen"
 
 #: snappass/templates/set_password.html:6
 msgid "Set Secret"
-msgstr "Geheimes Passwort festlegen"
+msgstr "One Time Secret festlegen"
 
 #: snappass/templates/set_password.html:12
 msgid ""
@@ -104,10 +104,8 @@ msgid ""
 "single or multi-line secret, its expiration time, and click Generate URL."
 " Share the one-time use URL with your intended recipient."
 msgstr ""
-"SnapPass ermöglicht es Ihnen, Passwörter auf sichere, kurzlebige Weise zu "
-"teilen. Geben Sie ein ein- oder mehrzeiliges Passwort ein, legen Sie die "
-"Ablaufzeit fest und klicken Sie auf 'URL generieren'. Teilen Sie die URL "
-"für den einmaligen Gebrauch mit dem beabsichtigten Empfänger."
+"Geben Sie bitte hier das gewünschte Secret (z.B. Passwort, Zugangsdaten etc.)"
+"ein und klicken anschließen auf “URL generieren”. "
 
 #: snappass/templates/set_password.html:18
 msgid "Two Weeks"
