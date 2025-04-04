@@ -16,7 +16,6 @@ services:
     stop_signal: SIGINT
     environment:
       - REDIS_HOST=redis
-      - NO_SSL=True
     depends_on:
       - redis
 
