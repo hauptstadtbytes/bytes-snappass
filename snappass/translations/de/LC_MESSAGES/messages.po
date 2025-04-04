@@ -28,7 +28,7 @@ msgstr "Snappass - Passwörter teilen"
 
 #: snappass/templates/base.html:16
 msgid "Share Secret"
-msgstr "One Time Secret - Hauptstadtbytes GmbH"
+msgstr "hauptstadtbytes GmbH"
 
 #: snappass/templates/confirm.html:6
 msgid "Share Secret Link"
@@ -96,7 +96,7 @@ msgstr "Secret anzeigen"
 
 #: snappass/templates/set_password.html:6
 msgid "Set Secret"
-msgstr "One Time Secret festlegen"
+msgstr "One Time Secret"
 
 #: snappass/templates/set_password.html:12
 msgid ""
@@ -105,7 +105,7 @@ msgid ""
 " Share the one-time use URL with your intended recipient."
 msgstr ""
 "Geben Sie bitte hier das gewünschte Secret (z.B. Passwort, Zugangsdaten etc.)"
-"ein und klicken anschließen auf “URL generieren”. "
+" ein und klicken anschließen auf “URL generieren”. "
 
 #: snappass/templates/set_password.html:18
 msgid "Two Weeks"
