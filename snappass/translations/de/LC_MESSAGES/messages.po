@@ -24,7 +24,7 @@ msgstr "de"
 
 #: snappass/templates/base.html:4
 msgid "Snappass - Share Secrets"
-msgstr "Snappass - Passwörter teilen"
+msgstr "One Time Secret"
 
 #: snappass/templates/base.html:16
 msgid "Share Secret"
